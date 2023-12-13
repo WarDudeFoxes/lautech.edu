@@ -1,0 +1,37 @@
+/* 
+.create-portal h5 {
+  margin-bottom: 5px;
+  margin-top: -5px;
+}
+
+
+.date-of-birth-container {
+  position: relative;
+  background-color: aqua;
+}
+
+.DOB-text {
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  font-size: .85rem;
+  opacity: .65;
+}
+
+.bottom-signup-note {
+  height: 80px;
+}
+@media (max-width: 400px) {
+  .DOB-text {
+    position: absolute;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    font-size: .75rem;
+  }  
+
+  ::placeholder  {
+    font-size: 0px;
+  }
+} */

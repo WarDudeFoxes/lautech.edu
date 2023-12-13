@@ -1,0 +1,382 @@
+
+
+body {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  background-color: rgb(230, 230, 230);
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* THIS IS THE LOGIN-PAGE */
+.login-page2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(230, 230, 230);
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lautech-logo2 {
+  width: 140px;
+  margin-bottom: 20px
+}
+
+.login-page-grid {
+  width: 65%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.login-container {
+  background-color: white;
+  padding: 25px 40px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px rgba(199, 130, 46, 0.14) solid;
+}
+
+.info-sign-up-link {
+  background-color: #c0a062;
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  border: 1px rgba(199, 130, 46, 0.14) solid;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-content h2{
+  color: rgb(236, 41, 41);
+  margin-bottom: -8px;
+}
+ 
+.login-content span {
+  color: red;
+  width: 100%;
+  text-align: center;
+  font-size: .9rem;
+  height: 13px;
+  margin-bottom: 10px;
+  margin-top: -12px;
+}
+
+
+.login-text {
+  color: rgb(180, 180, 180);
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  margin-bottom: 25px;
+}
+
+.login-email-container, .login-password-container {
+  display: flex;
+  width: 100%;
+}
+
+.login-email, .login-password {
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgb(240, 240, 240);
+  width: 100%;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  outline: none;
+}
+
+.solid-wall {
+  background-color: rgb(240, 240, 240);
+  padding: 12px;
+  width: 15px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.login-options {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.login-button {
+  background-color: #c0a062;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.forget-password-link {
+  color: rgb(238, 20, 20);
+  cursor: pointer;
+}
+
+.login-note, .contact {
+  font-style: italic;
+  color: rgb(120, 120, 120);
+  font-weight: 400;
+}
+
+.login-note {
+  margin-bottom: 20px;
+}
+
+.sign-up-link-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-up-link-content {
+  text-align: center;
+}
+
+.sign-up-info {
+ color: white;
+ line-height: 25px;
+ font-weight: 400;
+ font-size: 16px;
+ text-align: justify;
+}
+
+.sign-up-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-up-link-text {
+  color: rgb(194, 23, 23);
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 25px;
+}
+
+.sign-up-link button {
+  border: 1px rgb(194, 23, 23) solid;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: transparent;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+@media (min-width: 401px) and (max-width: 900px) {
+  .login-page-grid {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  
+  .info-sign-up-link {
+    background-color: #c0a062;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    border-radius: 5px;
+  }
+
+  .login-container {
+    background-color: white;
+    padding: 25px 40px;
+    width: 80%;
+    border-radius: 5px;
+  }
+
+    
+  .after-login {
+    margin-left: -20px; 
+  }
+
+  .login-page2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  .sign-up-link-text {
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .login-page2-container img {
+    width: 77px;
+  }
+
+  .login-page-grid {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+
+  .login-content h2 {
+    font-size: 16px;
+  }
+
+  .login-content h4{
+    margin-bottom: 5px;
+  }
+
+  .login-content span {
+    font-size: .7rem;
+    margin-bottom: 5px;
+    margin-top: -5px;
+  }
+  
+
+  .login-container {
+    background-color: white;
+    padding: 0;
+    width: 95%;
+    border-radius: 5px;
+    padding: 20px 30px;
+  }
+
+
+  .login-content h4 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  .login-email-container, .login-password-container {
+    height: 30px;
+  }
+
+  .solid-wall {
+    width: 30px;
+    padding: 12px 0;
+  }
+
+  .login-email::placeholder , .login-password::placeholder {
+    font-size: 12px;
+  }
+
+  .login-options {
+    align-items: center;
+    margin-bottom: 1px;
+  }
+
+  .after-login {
+    margin-left: -10px; 
+  }
+
+  .after-login div {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .forget-password-link {
+    font-size: 12px;
+  }
+  
+  .login-button {
+    background-color: #c0a062;
+    padding: 6px 10px;
+  }
+
+  .sign-up-link-content {
+    width: 100%;
+  }
+
+  .info-sign-up-link {
+    background-color: #c0a062;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    border-radius: 5px;
+    padding: 40px 30px 50px;
+  }
+
+  .sign-up-link-content h2 {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+
+  .sign-up-link-text {
+    font-size: 17px;
+  }
+
+  .sign-up-link button {
+    border: 1px rgb(194, 23, 23) solid;
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .sign-up-info {
+    font-size: 12px;
+    word-spacing: 0px;
+    line-height: 19px;
+    font-weight: 400;
+  }
+
+  .login-page2-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.display {
+  display: none;
+  opacity: 0;
+}

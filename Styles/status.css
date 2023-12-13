@@ -1,0 +1,240 @@
+body {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+/* THIS IS THE ADMISSION STAUTUS STYLES */
+
+.addmission-page-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.admission-page-content{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  width: 80%;
+  margin-top: 40px;
+  padding: 45px 60px ;
+  
+}
+
+.admission-status-grid {
+  display: grid;
+  grid-template-columns: 250px  1fr;
+  column-gap: 100px;
+}
+
+.admission-note-container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(222, 219, 219);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.admission-note-container h2{
+  color: #da251d;
+  text-align: center;
+  font-weight: 500;
+}
+
+.admission-status-note {
+  text-align: justify;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(138, 137, 137);
+}
+
+.status-login-link {
+  color: rgb(0, 115, 255);
+  cursor: pointer;
+}
+
+.status-login-link:hover {
+  text-decoration: underline;
+}
+
+.admission-status-check-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(222, 219, 219);
+  margin-bottom: 100px;
+}
+
+.admission-status-check-container h2 {
+  text-align: center;
+  color: #da251d;
+  font-weight: 400;
+}
+
+.admission-status-check-grid {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.admission-status-option-elem , .admission-status-input {
+  padding: 13px 25px;
+  width: 45%;
+  border: solid 1px #ebebeb;
+  border-radius: 5px;
+  font-size: 19px;
+  color: rgb(120, 120, 120);
+  outline: none;
+}
+
+.check-status-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.check-status-button button {
+  background-color: #c0a062;
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+@media (min-width: 401px) and (max-width: 900px) {
+  .admission-page-content{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    width: 67%;
+    margin-top: 40px;
+    padding: 40px 60px 0 40px;
+    height: fit-content;
+    margin-bottom: 50px;
+    padding-bottom: 0;
+
+  }
+    
+  .admission-status-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+  .admission-note-container  {
+    margin-bottom: 50px;
+  }
+
+
+  .admission-status-check-container {
+    padding-bottom: 15px;
+  }
+
+  .admission-status-check-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .admission-status-option-elem , .admission-status-input {
+    padding: 13px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  .addmission-page-container img {
+    width: 100px;
+    margin-bottom: 0;
+  }
+  .addmission-page-container {
+    margin: 20px;
+  }
+
+  .admission-page-content{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+    width: 67%;
+    margin-top: 40px;
+    padding: 40px 60px 0 40px;
+    height: fit-content;
+    margin-bottom: 50px;
+    padding-bottom: 0;
+
+  }
+    
+  .admission-status-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+
+  .admission-note-container  {
+    margin-bottom: 50px;
+  }
+
+  .admission-note-container h2 {
+    font-size: 16px;
+  }
+
+  .admission-status-note {
+    font-size: 14px;
+    word-spacing: 0px;
+  }
+
+
+  .admission-status-check-container {
+    padding-bottom: 15px;
+  }
+
+  .admission-status-check-container h2 {
+    padding-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .admission-status-option-elem , .admission-status-input {
+    padding: 8px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 14px;
+  }
+
+  ::placeholder {
+    font-size: 14px;
+  }
+
+  .admission-status-check-grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .check-status-button button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}

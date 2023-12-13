@@ -1,0 +1,253 @@
+body {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+  background-color: rgb(230, 230, 230);
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+/* THIS IS THE PORTAIL VERIFICATION STYLE */
+
+.portal-verification-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(230, 230, 230);
+  padding-top: 80px;
+  padding-bottom: 100px;
+  border: 1px solid gainsboro;
+}
+
+.verification-portal-content {
+  background-color: white;
+  padding: 30px 40px 60px 40px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.verification-portal-content h2 {
+  color: #da251d;
+  font-weight: 600;
+}
+
+.verification-portal-content h4 {
+  color: rgb(160, 160, 160);
+  font-weight: 400;
+}
+
+.utme-verification-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.solid-wall-utme {
+  background-color: rgb(230, 230, 230);
+  padding: 10px 15px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.utme-verification {
+  width: 100%;
+  padding: 10px 15px ;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border:1px solid #f0f3f5;
+  outline: none;
+}
+
+.utme-verification::placeholder {
+  font-size: 16px;
+}
+
+.verification-option {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.verify-button {
+  background-color: #c0a062;
+  color: black;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.verify-text {
+  color: #da251d;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.verify-text:hover {
+  text-decoration: underline;
+}
+
+.secure-text {
+  font-style: italic;
+  color: rgb(88, 86, 86);
+  font-weight: 400;
+  
+}
+
+.contact-text1 {
+  color: red;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.support-ticket {
+  color: rgb(0, 170, 255);
+}
+
+
+.contact-text2 {
+  color: rgb(88, 86, 86);
+  font-weight: 400;
+}
+
+@media (min-width: 401px) and (max-width: 800px) {
+
+  .portal-verification-container {
+    margin: 20px;
+  }
+
+  .portal-verification-container img {
+    width: 100px;
+  }
+
+  .verification-portal-content {
+    margin: 15px;
+    padding: 30px 30px 60px 30px;
+  }
+
+  .verification-portal-content h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .verification-portal-content h4 {
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  .solid-wall-utme {
+    padding: 8px 17px;
+  }
+  
+  .utme-verification {
+    padding: 9px 17px;
+  }
+
+  .utme-verification::placeholder {
+    font-size: 15px;
+  }
+
+  .verification-option {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .verify-button {
+    width: 45%;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+
+  .verify-text {
+    font-size: 15px;
+    text-align: end;
+    width: 70%;
+  }
+
+  .secure-text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .contact-text1,.contact-text2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .portal-verification-container img {
+    width: 75px;
+  }
+
+  .verification-portal-content {
+    margin: 15px;
+    padding: 30px 30px 60px 30px;
+  }
+
+  .verification-portal-content h2 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .verification-portal-content h4 {
+    font-size: 13px;
+    margin-top: 0;
+  }
+
+  .solid-wall-utme {
+    padding: 8px 15px;
+  }
+  
+  .utme-verification {
+    padding: 8px 10px;
+  }
+
+  .utme-verification::placeholder {
+    font-size: 13px;
+  }
+
+  .verification-option {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .verify-button {
+    width: 40%;
+    padding: 8px 0;
+    font-size: 12px;
+  }
+
+  .verify-text {
+    font-size: 12px;
+    text-align: end;
+    width: 70%;
+  }
+
+  .secure-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .contact-text1,.contact-text2 {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+}
+
+

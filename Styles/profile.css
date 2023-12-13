@@ -1,0 +1,516 @@
+body {
+  padding: 0;
+  font-family: sans-serif;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+a {
+  text-decoration: none;
+}
+/* THIS IS THE STUDENT PROFILE PAGE  */
+.user-dashboard {
+  display: flex;
+}
+
+.profile-mini-side-bar {
+  width: 10%;
+  background-color: #c0a062;
+  height: inherit;
+}
+
+.sidebar-mini-tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color:  rgba(255, 255, 255, 0.7);
+  font-size: .8rem;
+  font-weight: 500;
+  height: 52px;
+  column-gap: 8px;
+  border-bottom: 1px  rgba(255, 255, 255, 0.1) solid;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sidebar-mini-tools a{
+  color:  rgba(255, 255, 255, 0.7);
+}
+
+.profile-side-bar {
+  width: 19%;
+  background-color: #c0a062;
+  justify-content: center;
+}
+
+.side-bar-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-bar-logo {
+  width: 100px;
+  height: 80px;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  color:  rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+}
+
+.menu-container2 {
+  display: flex;
+  column-gap: 8px;
+}
+
+.side-bar-toggle {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px  rgba(255, 255, 255, 0.1) solid;
+  padding: 15px 15px;
+}
+ 
+.side-bar-toggle i {
+  padding: 16px 20px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color:  rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.sidebar-tools, .menu-container {
+  display: flex;
+  color:  rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  font-weight: 300;
+  height: 52px;
+  column-gap: 8px;
+  align-items: center;
+  border-bottom: 1px  rgba(255, 255, 255, 0.1) solid;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.image-input  {
+  width: 20px;
+  outline: 0;
+  opacity: .3;
+}
+
+.profile-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+/* hidden icons */
+.hamburger-pop-icon, .search-pop-icon {
+  display: none;
+}
+
+.profile-body-container {
+  width: 80%;
+  padding-bottom: 300px;
+  overflow-x: hidden;
+}
+
+.profile-navbar-search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.profile-navbar-input {
+  padding: 11px 15px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+}
+
+.search-icon {
+  padding: 8px 13px;
+  background-color: rgb(0, 102, 255);
+  font-size: 18px;
+  color: white;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.profile-navbar-user-container {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.profile-navbar-user-container img {
+  width: 40px;
+}
+
+.profile-navbar-name {
+  font-size: 16px;
+  color: rgb(138, 137, 137);
+  margin-right: 5px;
+  height: 100%;
+}
+
+.profile-body-content {
+  margin-left: 15px;
+}
+
+.top-content h2 {
+  font-weight: 400;
+  color: rgb(120, 120, 120);
+}
+
+.view-profile {
+  background-color: #ffc550;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 13px;
+  border-radius: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.name-date {
+  background-color: rgb(0, 98, 255);
+  color: white;
+  font-size: 14px;
+  width: fit-content;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.profile-body-content h5{
+  background-color: #f3cecc;
+  color: #925a57;
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 17px;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.details-container{
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.details-type, .user-details {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  color: rgb(127, 121, 121);
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.details-type span {
+  font-weight: 600;
+  font-size: .91rem;
+  height: 20px;
+}
+
+.user-details div {
+  height: 20px;
+}
+
+
+
+@media (min-width: 1100px) {
+  .profile-side-bar {
+    display: flex;
+  }
+  .profile-body-container {
+    width: 100%;
+  }
+}
+
+
+
+
+
+@media (min-width: 401px) and (max-width:1099px){
+
+  .profile-side-bar {
+    display: none;
+  }
+  
+  .profile-mini-side-bar {
+    width: 120px;
+    align-self: stretch;
+  }
+  
+  .profile-mini-side-bar .side-bar-content img{
+    margin: 5PX;
+    width: 95PX;
+  } 
+
+  .sidebar-mini-tools div {
+    font-size: .8rem;
+  }
+
+  .side-bar-toggle {
+    display: none;
+  }
+
+  .hamburger-pop-icon, .search-pop-icon {
+    visibility: visible;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+    cursor: pointer;
+  }
+
+  
+  .profile-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-navbar-search-container {
+    display: none;
+  }
+
+  .profile-body-container {
+    flex: 1;
+  }
+
+  .profile-navbar-user-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+  }
+
+  .profile-navbar-name {
+    margin-right: 10px;
+  }
+/* 
+  .hamburger-pop-icon {
+    visibility: visible;
+    margin-left: 20px;
+    display: inline;
+    cursor: pointer;
+    color: rgb(0, 98, 255);
+  } */
+/* 
+  .profile-navbar-search-container {
+    width: 50%;
+  } */
+/* 
+  .profile-navbar-input {
+    width: 100%;
+    outline: none;
+  }
+   */
+
+  /* .hamburger-pop-icon {
+    margin-left: 15px;
+    cursor: pointer;
+  }  */
+/* 
+  .profile-navbar-user-container {
+    margin-right: 20px;
+    width: 250px;
+  }  */
+
+  .view-profile {
+    display: none;
+  }
+
+  .profile-body-content h5 {
+    width: 410px;
+    margin-right: 200px;
+  }
+
+  .details-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .search-pop-icon {
+    visibility: visible;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    cursor: pointer;
+  }
+
+  
+  .moving-content {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .details-type, .user-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    color: rgb(127, 121, 121);
+  }
+
+  .details-type span, .user-details div {
+    width: 250px;
+  }
+
+  .profile-navbar-search-container{ 
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .profile-side-bar {
+    display: none;
+  }
+
+  .profile-mini-side-bar {
+    width: 30%;
+  }
+
+  .profile-mini-side-bar .side-bar-content img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .sidebar-mini-tools {
+    height: 50px;
+  }
+
+  .side-bar-toggle {
+    display: none;
+  }
+
+  .sidebar-mini-tools div {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .profile-body-container {
+    width: 100%;
+  }
+
+  .profile-navbar-user-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-content h2 {
+    font-size: 19px;
+    margin-bottom: 0;
+  }
+
+  .profile-navbar-name , .name-date, .view-profile,  .profile-navbar-search-container {
+    display: none;
+  }
+
+  .hamburger-pop-icon, .search-pop-icon {
+    visibility: visible;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+    cursor: pointer;
+  }
+  .hamburger-pop-icon {
+    color: rgb(0, 98, 255);
+  }
+
+  .profile-body-content h5 {
+    width: 260px;
+    font-size: 15px;
+    margin-right: 100%;
+  }
+
+  .moving-content {
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .details-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;  
+  }
+
+  .details-type, .user-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    color: rgb(127, 121, 121);
+  }
+
+  .details-type span, .user-details div {
+    width: 150px;
+    font-size: .81rem;
+  }
+}
+
+
+
+.js-classlist-display {
+  display: none;
+  visibility: hidden;
+  transition: display 0.4s, visibility 0.4s;
+}
+
+.width {
+  width: 100%;
+}
+
+.width2  {
+  margin-right: 20px;
+}
+
+.width3 {
+  margin-left: 0;
+}
+
+.width4 {
+  margin-right: 0;
+}
+
+.disply {
+  display: none;
+  opacity: 0;
+}

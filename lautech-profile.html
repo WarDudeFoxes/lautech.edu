@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="Styles/profile.css">
+</head>
+<body>
+  <div class="user-dashboard">
+    <div class="profile-mini-side-bar">
+      <div class="side-bar-content">
+        <a href="index.html">
+          <img src="logo_predegree1.png" alt="" class="side-bar-logo">
+        </a>
+        <div class="side-bar-options">
+          <div class="menu-container1 sidebar-mini-tools">
+            <div class="menu-icon">
+              <i class="fa-solid fa-ellipsis-vertical" aria-hidden="true"></i>
+            </div>
+            <div class="menu-text">Menu</div>
+          </div>
+          <div class="side-bar-toggle">
+            <i class="fa fa-angle-left mini-toggle-sidebar" aria-hidden="true"></i>
+          </div>
+          <a href="profile-user-dashboard.html">
+            <div class="profile-option-container sidebar-mini-tools">
+            <div class="side-icon">
+              <i class="fa-solid fa-circle-user" aria-hidden="true"></i>
+            </div>
+            <div class="profile-text">My Profile</div>
+          </a>
+          </div>
+          <div class="support-option-container sidebar-mini-tools">
+            <div class="side-icon">
+              <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+            </div>
+            <div class="support-text">Support</div>
+          </div>
+          <div class="passport-option-container sidebar-mini-tools">
+            <div class="side-icon">
+              <input type="file" name="" id="" class="image-input display">
+            </div>
+            <div class="passport-text">Upload Passport</div>
+          </div>
+          <a href="reset-password.html">
+            <div class="password-option-container sidebar-mini-tools">
+              <div class="side-icon">
+                <i class="fa-solid fa-key" aria-hidden="true"></i>
+              </div>
+              <div class="password-text">Change Password</div>
+            </div>
+          </a>
+          <a href="change-email.html">
+            <div class="email-option-container sidebar-mini-tools">
+              <div class="side-icon">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="email-text">Change-Email</div>
+            </div>
+          </a>
+          <div class="helps-option-container sidebar-mini-tools">
+            <div class="side-icon">
+              <i class="fa-solid fa-circle-question" aria-hidden="true"></i>
+            </div>
+            <div class="helps-text">Helps</div>
+          </div>
+          <a href="lautech-login.html">
+            <div class="logout sidebar-mini-tools">
+              <div class="logout-text">Logout</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-side-bar js-classlist-display">
+      <div class="side-bar-content">
+        <img src="logo_predegree1.png" alt="" class="side-bar-logo">
+        <div class="side-bar-options">
+          <div class="menu-container">
+            <div class="menu-container2">
+              <div class="menu-icon">
+                <i class="fa-solid fa-ellipsis-vertical" aria-hidden="true"></i>
+              </div>
+              <div class="menu-text">Menu</div>
+            </div>
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
+          <div class="side-bar-toggle">
+            <i class="fa fa-angle-left toggle-sidebar" aria-hidden="true"></i>
+          </div>
+          <a href="profile-user-dashboard.html">
+            <div class="profile-option-container sidebar-tools">
+              <div class="side-icon">
+                <i class="fa-solid fa-circle-user" aria-hidden="true"></i>
+              </div>
+              <div class="profile-text">My Profile</div>
+            </div>
+          </a>
+          <div class="support-option-container sidebar-tools">
+            <div class="side-icon">
+              <i class="fa-solid fa-circle-info" aria-hidden="true"></i>
+            </div>
+            <div class="support-text">Support</div>
+          </div>
+          <div class="passport-option-container sidebar-tools">
+            <div class="side-icon">
+              <input type="file" name="" id="" class="image-input">
+            </div>
+            <div class="passport-text">Upload Passport</div>
+          </div>
+          <a href="reset-password.html">
+            <div class="password-option-container sidebar-tools">
+              <div class="side-icon">
+                <i class="fa-solid fa-key" aria-hidden="true"></i>
+              </div>
+              <div class="password-text">Change Password</div>
+            </div>
+          </a>
+          <a href="change-email.html">
+            <div class="email-option-container sidebar-tools">
+              <div class="side-icon">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="email-text">Change-Email Address</div>
+            </div>
+          </a>
+          <div class="helps-option-container sidebar-tools">
+            <div class="side-icon">
+              <i class="fa-solid fa-circle-question" aria-hidden="true"></i>
+            </div>
+            <div class="helps-text">Helps</div>
+          </div>
+          <a href="lautech-login.html">
+            <div class="logout sidebar-tools">
+              <div class="logout-text">Logout</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-body-container">
+      <div class="profile-navbar">
+        <i class="fa-solid fa-bars hamburger-pop-icon" aria-hidden="true"></i>
+        <div class="profile-navbar-search-container">
+          <input type="text" placeholder="Search for..." id="" class="profile-navbar-input">
+          <i class="fa fa-search search-icon" aria-hidden="true"></i>
+        </div>
+        <div class="profile-navbar-user-container">
+          <i class="fa fa-search search-pop-icon" aria-hidden="true"></i>
+          <div class="profile-navbar-name student-name"></div>
+          <a href="profile-user-dashboard.html">
+            <img src="" alt="image">
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-body-content">
+        <div class="top-content">
+          <h2>User Dashboard</h2>
+          <a href="profile-user-dashboard.html">
+            <div class="view-profile">View My Profile</div>
+          </a>
+        </div>
+        <div class="moving-content">
+          <div class="name-date">
+            Hello i <span class="student-full-name"></span> Saturday, 11th-Nov-2023
+          </div>
+          <h5>NO ADMISSION YET</h5>
+          <div class="details-container js-details-container"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="js-login-button display"></div>
+
+  <!-- <script type="module" src="Scripts/login.js"></script> -->
+  <script type="module" src="Scripts/lautech-profile.js"></script>
+</body>
+</html>
