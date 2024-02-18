@@ -101,7 +101,7 @@ body {
 }
 
 
-@media (min-width: 401px) and (max-width: 800px) {
+@media (min-width: 451px) and (max-width: 800px) {
   .information-main-container {
     display: flex;
     flex-direction: column;
@@ -141,7 +141,7 @@ body {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
   .comfirmation-container {
     margin-top: 30px;

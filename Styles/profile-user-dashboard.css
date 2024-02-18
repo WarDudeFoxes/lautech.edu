@@ -118,7 +118,7 @@
 
 
 
-@media (min-width: 401px) and (max-width: 1100px) {
+@media (min-width: 451px) and (max-width: 1100px) {
 
   
 
@@ -189,7 +189,7 @@
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
     
   .view-profile, .profile-navbar-user-container {
@@ -197,7 +197,7 @@
   }
 
   .username-profile {
-    font-size: .8rem;
+    font-size: .95rem;
   }
 
 
@@ -232,7 +232,7 @@
 
   .personal-data h4, .education-data h4 {
     padding: 10px ;
-    font-size: .8rem;
+    font-size: .95rem;
   }
 
   .details-container {
@@ -248,7 +248,7 @@
 
   .education-data-type span, .personal-data span{
     font-weight: 600;
-    font-size: .81rem;
+    font-size: .99rem;
     opacity: .9;
   }
   

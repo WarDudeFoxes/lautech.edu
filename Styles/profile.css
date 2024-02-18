@@ -253,7 +253,7 @@ a {
 
 
 
-@media (min-width: 401px) and (max-width:1099px){
+@media (min-width: 451px) and (max-width:1099px){
 
   .profile-side-bar {
     display: none;
@@ -305,6 +305,7 @@ a {
     align-items: center;
     justify-content: center;
     margin-right: 15px;
+    /* background-color: #ffc550; */
   }
 
   .profile-navbar-name {
@@ -391,9 +392,10 @@ a {
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   body {
     overflow-x: hidden;
+    height: 100%;
   }
 
   .profile-side-bar {
@@ -402,6 +404,7 @@ a {
 
   .profile-mini-side-bar {
     width: 30%;
+    height: 100vh;
   }
 
   .profile-mini-side-bar .side-bar-content img{

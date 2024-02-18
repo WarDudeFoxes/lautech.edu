@@ -195,7 +195,7 @@ a {
   cursor: pointer;
 }
 
-@media (min-width: 401px) and (max-width: 900px) {
+@media (min-width: 451px) and (max-width: 900px) {
   .login-page-grid {
     width: 75%;
     display: flex;
@@ -244,7 +244,7 @@ a {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .login-page2-container img {
     width: 77px;
   }
@@ -266,7 +266,7 @@ a {
   }
 
   .login-content span {
-    font-size: .7rem;
+    font-size: .89rem;
     margin-bottom: 5px;
     margin-top: -5px;
   }

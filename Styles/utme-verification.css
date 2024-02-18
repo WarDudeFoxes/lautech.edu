@@ -122,7 +122,7 @@ a {
   font-weight: 400;
 }
 
-@media (min-width: 401px) and (max-width: 800px) {
+@media (min-width: 451px) and (max-width: 800px) {
 
   .portal-verification-container {
     margin: 20px;
@@ -189,7 +189,7 @@ a {
 }
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .portal-verification-container img {
     width: 75px;
   }
